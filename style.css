@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #0A1828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+em {
+    color: #FF764A;
+}
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 1.1em;
+    background-color: whitesmoke;
+}
+
+.menu a{
+    background-color: whitesmoke;
+    color: #72A1E5;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.menu a:hover{
+    color: whitesmoke;
+    background-color: #FF764A;
+    border-radius: 20px;
+}
+
+nav div {
+    background-color: whitesmoke;
+}
+
+button {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #FF764A;
+    border: 1px solid #72A1E5;
+}
+
+button:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #FF764A;
+    border-color: #939598;
+    border-style: none;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+main h1{
+    padding: 40px 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 2.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+main p {
+    width: 80%;
+    margin: auto;
+    color: whitesmoke;
+    line-height: 180%;
+}
